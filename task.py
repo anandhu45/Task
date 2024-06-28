@@ -1,5 +1,5 @@
 def pattern(rows,cols):
-  top=" _    "*(cols)
+  top=" ___ "*(cols)
   middle="/   \\_"*(cols-1)+"/   \\"
   down="\\_/   "*(cols)
   top1=" _   "
