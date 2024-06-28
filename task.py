@@ -1,8 +1,7 @@
 def pattern(rows,cols):
-  top=" ___ "*(cols)
-  middle="/   \\_"*(cols-1)+"/   \\"
-  down="\\_/   "*(cols)
-  top1=" _   "
+  top=" ___ "*(rows)
+  middle="/   \\___"*(rows-1)+"/   \\"
+  down="\\___/   "*(rows)
 
 
 
